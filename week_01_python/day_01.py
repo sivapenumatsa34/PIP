@@ -1,8 +1,3 @@
-#print("Hello")
-
-#name = "Siva"
-#print(name)
-
 #x=5
 #y=10
 #print(x+y)
@@ -52,3 +47,22 @@ number=input("Enter a number:")
 print(type(number))
 number=int(number)
 print(type(number))
+
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+
+area = length * width
+perimeter = 2 * (length + width)
+
+print("Area:", area)
+print("Perimeter:", perimeter)
+
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the annual interest rate (%): "))
+years = float(input("Enter the time in years: "))
+
+interest = (principal * rate * years) / 100
+total = principal + interest
+
+print("Simple interest:", interest)
+print("Total amount:", total)
