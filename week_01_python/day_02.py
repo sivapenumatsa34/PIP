@@ -59,4 +59,23 @@
 #     sum=i+sum
 # print(sum)
 
-n=int(input("
+# n=int(input("num"))
+# for i in range(n+1):
+#     print(i**2)
+
+# n=int(input("Enter the number:"))
+# for i in range(1,n+1):
+#     is_prime=True
+#     for j in range(2,i):
+#         if i%j==0:
+#             is_prime=False
+#             break
+#     if is_prime==True:
+#         print(i)
+
+n = input("Enter a number:")
+reverse=""
+for i in n:
+    reverse=i+reverse
+print(reverse)
+
