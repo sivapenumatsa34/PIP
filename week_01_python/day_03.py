@@ -141,17 +141,50 @@
 
 # for name,score in scores.items():
 #     if score >= 50:
-#         print(name, "has passed with score:", score)
+# #         print(name, "has passed with score:", score)
 
-student = {"name": "Siva", "age": 25, "marks": 80}
-print(student["name"])
-student["marks"] = 30
-print(student["marks"])
-student["city"]="hyderabad"
-print(student)
-print("age" in student)
-print(len(student))
-del student["age"]
-print(student)
-for key,value in student.items():
-    print(key, ":", value)
+# student = {"name": "Siva", "age": 25, "marks": 80}
+# print(student["name"])
+# student["marks"] = 30
+# print(student["marks"])
+# student["city"]="hyderabad"
+# print(student)
+# print("age" in student)
+# print(len(student))
+# del student["age"]
+# print(student)
+# for key,value in student.items():
+#     print(key, ":", value)
+
+#sets
+set_a={1, 2, 3, 4, 5}
+ 
+set_a.add(6)              
+set_a.remove(3)           
+print(set_a)
+ 
+b={4, 5, 6, 7, 8}
+print(set_a.union(b))      
+print(set_a.intersection(b)) 
+print(set_a.difference(b))   
+print(set_a.symmetric_difference(b)) 
+ 
+ 
+c={1, 2, 3, 4, 5}
+print("c = " , c)
+ 
+c.discard(3)  # discard element
+print(c)
+ 
+ 
+numbers = {10, 20, 30, 40} #clearing all elements from the set
+numbers.clear()
+ 
+print(numbers)
+ 
+ 
+numbers_1 = {10, 20, 30} #copying all elements from the set
+ 
+new_numbers = numbers_1.copy()
+ 
+print(new_numbers)
